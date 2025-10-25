@@ -1,0 +1,6 @@
+uagents==0.22.10
+uagents-core
+python-dotenv
+pydantic
+# Optional (MeTTa/hyperon) if you want MeTTa reasoning:
+# hyperon
