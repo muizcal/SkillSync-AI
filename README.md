@@ -61,7 +61,7 @@ Agents communicate over **ASI Chat Protocol**, reason with **MeTTa**, and provid
 ## 🧩 MeTTa Knowledge Graph (`metta_kg.metta`)
 Sample rules used for reasoning:
 
-```metta
+<pre>metta
 (= (skills data-analyst) (python sql pandas matplotlib))
 (= (resources data-analyst) ("https://www.kaggle.com/learn/overview" "https://www.coursera.org/specializations/data-science"))
 (= (skills ml-engineer) (python math statistics tensorflow))
@@ -79,7 +79,9 @@ Sample rules used for reasoning:
 (= (skills ui-ux-designer) (figma prototyping user-research design-thinking))
 (= (resources ui-ux-designer) ("https://www.interaction-design.org" "https://www.coursera.org/specializations/ui-ux-design"))
 (= (skills devops-engineer) (ci-cd docker kubernetes aws monitoring))
-(= (resources devops-engineer) ("https://www.edx.org/learn/devops" "https://www.coursera.org/specializations/devops"))
+(= (resources devops-engineer) ("https://www.edx.org/learn/devops" "https://www.coursera.org/specializations/devops"))</pre>
+
+
 
 This structure ensures high adaptability and semantic inference power during chat sessions.
 
@@ -133,7 +135,7 @@ Career Agent -> Mentor Agent -> reply visible on Agentverse
 
 
 
-📖 Use Case Examples
+**📖 Use Case Examples**
 Scenario	            Description
 🎯 Career Switcher	    Helps professionals pivot to new roles by learning new skills.
 🧑‍🎓 Student Mentor	Guides students in picking relevant courses to achieve job readiness.
@@ -157,7 +159,7 @@ Future Scope: Integration into web dashboards or Discord agents.
 
 
 
-🚫 Limitations
+**🚫 Limitations**
 
 Currently supports predefined careers listed in MeTTa knowledge base.
 
@@ -165,7 +167,7 @@ Does not yet perform resume parsing or dynamic data scraping.
 
 Internet-based resource links are static for this version.
 
-🧩 Future Enhancements
+**🧩 Future Enhancements**
 
 Add personalized skill scoring and progress tracking.
 
@@ -175,11 +177,11 @@ Integrate with SingularityNET AI models for richer reasoning.
 
 Deploy a multi-agent collaboration system (Mentor + Recruiter + Trainer).
 
-🔑 Keywords & Tags
+**🔑 Keywords & Tags**
 
 career, mentorship, education, learning-paths, MeTTa, uAgents, ASI, hackathon, Agentverse, Fetch.ai, SingularityNET
 
-📄 License
+**📄 License**
 
 This project is released under the MIT License.
 
