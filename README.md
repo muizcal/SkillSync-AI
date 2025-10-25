@@ -149,8 +149,10 @@ CLI Terminal Interface
 Future Scope: Integration into web dashboards or Discord agents.
 
 
-**DEMO VIDEO**
-Check out [here](https://drive.google.com/file/d/1VT1ufyoEDJMBdG7jazQuu85uccw6zzyw/view?usp=sharing).
+
+## 🎬 Demo video
+[Click here to view the demo](https://drive.google.com/file/d/1VT1ufyoEDJMBdG7jazQuu85uccw6zzyw/view?usp=sharing)
+
 
 
 
