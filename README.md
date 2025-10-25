@@ -88,22 +88,23 @@ This structure ensures high adaptability and semantic inference power during cha
 
 
 🧪 Local Development Setup
-# 1. Clone
-git clone https://github.com/muizcal/SkillSync-AI.git
-cd SkillSync-AI
+**1. Clone**
+<pre>git clone https://github.com/muizcal/SkillSync-AI.git
+cd SkillSync-AI</pre>
 
-# 2. Create venv and activate
-python3 -m venv venv
-source venv/bin/activate
+**2. Create venv and activate**
+<pre>python3 -m venv venv
+source venv/bin/activate</pre>
 
-# 3. Install dependencies (make sure to run inside venv)
+ **3. Install dependencies (make sure to run inside venv)**
+
 python -m pip install --force-reinstall --no-cache-dir uagents python-dotenv hyperon  # hyperon only if available/needed
 
-# 4. Start the main agent (career_agent) first
-python career_agent.py
+**4. Start the main agent (career_agent) first**
+<pre>python career_agent.py</pre>
 
-# 5. Copy the printed agent address and register it on Agentverse (enable mailbox)
-# 6. Add that address to .env for Mentor/Patient agents (e.g., CAREER_AGENT_ADDRESS=agent1...)
+**5. Copy the printed agent address and register it on Agentverse (enable mailbox)**
+**6. Add that address to .env for Mentor/Patient agents (e.g., CAREER_AGENT_ADDRESS=agent1...)**
 
 ⚙️ Example .env (copy .env.example to .env and edit)
 ASI_ONE_API_KEY=      # optional (LLM usage)
@@ -113,9 +114,9 @@ CAREER_AGENT_SEED=career_secret_seed_v1
 MENTOR_AGENT_SEED=mentor_secret_seed_v1
 PATIENT_AGENT_SEED=patient_secret_seed_v1
 
-# 7. Start mentor_agent (and/or patient_agent)
-python mentor_agent.py
-python patient_agent.py
+ **7. Start mentor_agent (and/or patient_agent)**
+<pre>python mentor_agent.py
+python patient_agent.py</pre>
 
 
 After start career_agent.py (server agent). Copy its printed agent address url.
@@ -128,7 +129,7 @@ Start mentor_agent.py. It sends the demo query to career_agent.
 
 Confirm reply both in backend logs and in Agentverse UI.
 
-Example chat:
+**Example chat:**
 User (on Agentverse or ASI ONE): @Mentor Agent How can I become a data analyst?
 Mentor Agent -> Career Agent (backend)
 Career Agent -> Mentor Agent -> reply visible on Agentverse
