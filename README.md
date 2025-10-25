@@ -8,7 +8,7 @@
 
 ## 🧠 Overview
 **SkillSync AI** is an intelligent, multi-agent mentorship system that helps users discover and pursue personalized career paths using **uAgents**, **ASI Chat Protocol**, and **MeTTa Knowledge Graph reasoning**.  
-It dynamically recommends skills, learning resources, and step-by-step career guidance based on user goals — such as becoming a *Data Analyst*, *ML Engineer*, or *Frontend Developer*.  
+It dynamically recommends skills, learning resources, and step-by-step career guidance based on user goals such as becoming a *Data Analyst*, *ML Engineer*, or *Frontend Developer*.  
 
 The agent ecosystem ensures real-time, context-aware reasoning and can be expanded with new knowledge via MeTTa for adaptive learning.
 
@@ -150,7 +150,8 @@ Future Scope: Integration into web dashboards or Discord agents.
 
 
 **DEMO VIDEO**
-https://drive.google.com/file/d/1VT1ufyoEDJMBdG7jazQuu85uccw6zzyw/view?usp=sharing
+Check out [here](https://drive.google.com/file/d/1VT1ufyoEDJMBdG7jazQuu85uccw6zzyw/view?usp=sharing).
+
 
 
 
