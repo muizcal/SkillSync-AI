@@ -1,29 +1,23 @@
-![tag:innovationlab](https://img.shields.io/badge/innovationlab-3D8BD3)
-![tag:hackathon](https://img.shields.io/badge/hackathon-2E5CK3)
-![tag:career-guidance](https://img.shields.io/badge/domain-career_guidance-3C9EE7)
-![tag:education](https://img.shields.io/badge/domain-education-6A0DAD)
-![tag:mentorship](https://img.shields.io/badge/domain-mentorship-008000)
+# SkillSync AI – Career Mentor Agent 
 
-# SkillSync AI – Career Mentor Agent 🤖🎓
-
-## 🧠 Overview
+##  Overview
 **SkillSync AI** is an intelligent, multi-agent mentorship system that helps users discover and pursue personalized career paths using **uAgents**, **ASI Chat Protocol**, and **MeTTa Knowledge Graph reasoning**.  
 It dynamically recommends skills, learning resources, and step-by-step career guidance based on user goals such as becoming a *Data Analyst*, *ML Engineer*, or *Frontend Developer*.  
 
 The agent ecosystem ensures real-time, context-aware reasoning and can be expanded with new knowledge via MeTTa for adaptive learning.
 
----
 
-## 🚀 Key Capabilities
+
+##  Key Capabilities
 - **Career Discovery:** Understands user intent (e.g., “I want to become a data analyst”) and matches it with relevant skill paths.  
 - **Dynamic Knowledge Reasoning:** Uses **MeTTa Knowledge Graphs** for structured skill-resource mapping and inference.  
 - **Conversational Guidance:** Engages users in interactive chats through the **uAgents Chat Protocol**, offering real-time mentorship.  
 - **Extensible Framework:** Easily add new professions and learning pathways by updating `metta_kg.metta`.  
 - **Fetch.ai & SingularityNET Integration Ready:** Fully compliant with the **ASI Alliance hackathon** requirements.
 
----
 
-## 🧩 Architecture Overview
+
+##  Architecture Overview
 
 +--------------------------+
 | User Interface (CLI / ASI Chat) |
@@ -44,9 +38,9 @@ v
 
 Agents communicate over **ASI Chat Protocol**, reason with **MeTTa**, and provide tailored mentorship responses.
 
----
 
-## 🛠️ Technologies Used
+
+##  Technologies Used
 | Technology | Purpose |
 |-------------|----------|
 | **uAgents** | Core agent framework for communication & reasoning |
@@ -56,9 +50,9 @@ Agents communicate over **ASI Chat Protocol**, reason with **MeTTa**, and provid
 | **Logging** | Provides detailed event tracking |
 | **Agentverse Registration** | Enables public access and ASI discoverability |
 
----
 
-## 🧩 MeTTa Knowledge Graph (`metta_kg.metta`)
+
+##  MeTTa Knowledge Graph (`metta_kg.metta`)
 Sample rules used for reasoning:
 
 <pre>metta
@@ -87,7 +81,7 @@ This structure ensures high adaptability and semantic inference power during cha
 
 
 
-🧪 Local Development Setup
+ Local Development Setup
 **1. Clone**
 <pre>git clone https://github.com/muizcal/SkillSync-AI.git
 cd SkillSync-AI</pre>
@@ -106,7 +100,7 @@ python -m pip install --force-reinstall --no-cache-dir uagents python-dotenv hyp
 **5. Copy the printed agent address and register it on Agentverse (enable mailbox)**
 **6. Add that address to .env for Mentor/Patient agents (e.g., CAREER_AGENT_ADDRESS=agent1...)**
 
-⚙️ Example .env (copy .env.example to .env and edit)
+ Example .env (copy .env.example to .env and edit)
 ASI_ONE_API_KEY=      # optional (LLM usage)
 AGENTVERSE_API_KEY=sk_xxx
 CAREER_AGENT_ADDRESS=agent1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -136,14 +130,14 @@ Career Agent -> Mentor Agent -> reply visible on Agentverse
 
 
 
-**📖 Use Case Examples**
+** Use Case Examples**
 Scenario	            Description
-🎯 Career Switcher	    Helps professionals pivot to new roles by learning new skills.
-🧑‍🎓 Student Mentor	Guides students in picking relevant courses to achieve job readiness.
-💼 Recruiter Assistant	Maps candidate profiles to relevant learning paths for upskilling.
+ Career Switcher	    Helps professionals pivot to new roles by learning new skills.
+ Student Mentor	Guides students in picking relevant courses to achieve job readiness.
+ Recruiter Assistant	Maps candidate profiles to relevant learning paths for upskilling.
 
 
-**⚙️ Interaction Modes**
+** Interaction Modes**
 
 Direct ASI Chat (User ↔ SkillSync AI)
 
@@ -153,43 +147,19 @@ Future Scope: Integration into web dashboards or Discord agents.
 
 
 
-## 🎬 Demo video
+##  Demo video
 [Click here to view the demo](https://drive.google.com/file/d/1VT1ufyoEDJMBdG7jazQuu85uccw6zzyw/view?usp=sharing)
 
 
 
 
 
-**🚫 Limitations**
+** Limitations**
 
 Currently supports predefined careers listed in MeTTa knowledge base.
 
 Does not yet perform resume parsing or dynamic data scraping.
 
 Internet-based resource links are static for this version.
-
-**🧩 Future Enhancements**
-
-Add personalized skill scoring and progress tracking.
-
-Expand to include AI-driven resume analysis.
-
-Integrate with SingularityNET AI models for richer reasoning.
-
-Deploy a multi-agent collaboration system (Mentor + Recruiter + Trainer).
-
-**🔑 Keywords & Tags**
-
-career, mentorship, education, learning-paths, MeTTa, uAgents, ASI, hackathon, Agentverse, Fetch.ai, SingularityNET
-
-**📄 License**
-
-This project is released under the MIT License.
-
-
-Created by:
-👨‍💻 Shittu Abdulmuiz Oyekunle (Muizcal)
-🌐 SkillSync AI | ASI Hackathon 2025
-
 
 
